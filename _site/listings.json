@@ -1,23 +1,20 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/steel-nylon-classifier.html",
-      "/posts/vietnamese-lyrics-classifier.html"
-    ]
+    "listing": "/projects.html",
+    "items": []
   },
   {
-    "listing": "/projects.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/steel-nylon-classifier.html",
-      "/posts/vietnamese-lyrics-classifier.html"
+      "/articles/steel-nylon-classifier.html",
+      "/articles/vietnamese-lyrics-classifier.html"
     ]
   },
   {
     "listing": "/articles.html",
     "items": [
-      "/posts/steel-nylon-classifier.html",
-      "/posts/vietnamese-lyrics-classifier.html"
+      "/articles/steel-nylon-classifier.html",
+      "/articles/vietnamese-lyrics-classifier.html"
     ]
   }
 ]

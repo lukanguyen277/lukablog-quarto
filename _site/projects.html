@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -210,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Posts</a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Articles</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -218,12 +218,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/steel-nylon-classifier.html" class="sidebar-item-text sidebar-link">Simple MLP model for Guitar Steel vs Nylon strings classification</a>
+  <a href="./articles/steel-nylon-classifier.html" class="sidebar-item-text sidebar-link">Simple MLP model for Guitar Steel vs Nylon strings classification</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts/vietnamese-lyrics-classifier.html" class="sidebar-item-text sidebar-link">Vietnamese Lyrics Classification</a>
+  <a href="./articles/vietnamese-lyrics-classifier.html" class="sidebar-item-text sidebar-link">Vietnamese Lyrics Classification</a>
   </div>
 </li>
       </ul>
@@ -234,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Classification">Classification <span class="quarto-category-count">(2)</span></div><div class="category" data-category="audio">audio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cnn">cnn <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(2)</span></div><div class="category" data-category="decision tree">decision tree <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fft">fft <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mlp">mlp <span class="quarto-category-count">(1)</span></div><div class="category" data-category="processing">processing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="signal">signal <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
@@ -247,103 +247,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="code,Classification,mlp,cnn,audio,processing,signal,fft" data-listing-date-sort="1669395600000" data-listing-file-modified-sort="1673489860013" data-listing-reading-time-sort="4.25">
-<div class="thumbnail">
-<p><a href="./posts/steel-nylon-classifier.html"> <img src="./posts/steel-nylon-classifier.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/steel-nylon-classifier.html">
-<h3 class="no-anchor listing-title">
-Simple MLP model for Guitar Steel vs Nylon strings classification
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Classification'); return false;">
-Classification
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mlp'); return false;">
-mlp
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cnn'); return false;">
-cnn
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('audio'); return false;">
-audio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('processing'); return false;">
-processing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('signal'); return false;">
-signal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('fft'); return false;">
-fft
-</div>
-</div>
-<a href="./posts/steel-nylon-classifier.html">
-<div class="listing-description">
-Can a 2-hidden-layer MLP do a good job classifying musical instrument sounds? Let’s find out!
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/steel-nylon-classifier.html">
-<div class="listing-date">
-Nov 26, 2022
-</div>
-<div class="listing-author">
-Luka Nguyen
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="code,Classification,decision tree" data-listing-date-sort="1666285200000" data-listing-file-modified-sort="1673489860014" data-listing-reading-time-sort="7">
-<div class="thumbnail">
-<p><a href="./posts/vietnamese-lyrics-classifier.html"> <img src="./posts/vietnamese-lyrics-classifier.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/vietnamese-lyrics-classifier.html">
-<h3 class="no-anchor listing-title">
-Vietnamese Lyrics Classification
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Classification'); return false;">
-Classification
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('decision tree'); return false;">
-decision tree
-</div>
-</div>
-<a href="./posts/vietnamese-lyrics-classifier.html">
-<div class="listing-description">
-Liệu rằng phần lời của một bài hát có đầy đủ thông tin để chúng ta phân loại chủ đề bài hát đó?…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/vietnamese-lyrics-classifier.html">
-<div class="listing-date">
-Oct 21, 2022
-</div>
-<div class="listing-author">
-Luka Nguyen
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

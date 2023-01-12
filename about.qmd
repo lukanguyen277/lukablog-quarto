@@ -23,3 +23,9 @@ about:
 ---
 
 I'm passionate about Artificial Intelligence and Music.
+
+
+## Education
+
+University of Science, Ho Chi Minh | Vietnam
+BSc in Computer Science | Sept 2011 - June 2015

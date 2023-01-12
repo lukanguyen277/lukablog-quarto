@@ -16,5 +16,17 @@
       "/articles/steel-nylon-classifier.html",
       "/articles/vietnamese-lyrics-classifier.html"
     ]
+  },
+  {
+    "listing": "/articles/steel-nylon-classifier.html",
+    "items": [
+      "/articles/vietnamese-lyrics-classifier.html"
+    ]
+  },
+  {
+    "listing": "/articles/vietnamese-lyrics-classifier.html",
+    "items": [
+      "/articles/steel-nylon-classifier.html"
+    ]
   }
 ]

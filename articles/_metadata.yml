@@ -6,3 +6,9 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+number-sections: true
+toc: true
+listing: default
+format:
+  html:
+    code-fold: false

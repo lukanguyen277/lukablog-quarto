@@ -2,7 +2,9 @@ project:
   type: website
 
 website:
-  
+  comments:
+    giscus:
+      repo: lukanguyen277/lukablog-quarto
   title: "lukanguyen"
   sidebar:
     style: "docked"
@@ -18,14 +20,19 @@ website:
       - about.qmd
     right:
       - icon: github
+        aria-label: Github
         href: https://github.com/lukanguyen277
       - icon: twitter
+        aria-label: Twitter
         href: https://twitter.com/nqhoang2077
       - icon: linkedin
+        aria-label: LinkedIn
         href: https://www.linkedin.com/in/luka-nguyen-b9586a236/
       - icon: facebook
+        aria-label: Facebook
         href: https://www.facebook.com/lukanguyentech/
       - icon: medium
+        aria-label: Medium
         href: https://medium.com/@lukanguyen
 format:
   html:

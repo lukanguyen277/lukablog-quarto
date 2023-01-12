@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: ebbc5847-ce9f-4a55-8a31-4dcd81fd80b2
+      url: 'https://lukanguyen.com'

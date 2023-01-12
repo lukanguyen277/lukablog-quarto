@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/steel-nylon-classifier.html",
+      "/posts/vietnamese-lyrics-classifier.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/posts/steel-nylon-classifier.html",
+      "/posts/vietnamese-lyrics-classifier.html"
+    ]
+  },
+  {
+    "listing": "/articles.html",
+    "items": [
+      "/posts/steel-nylon-classifier.html",
+      "/posts/vietnamese-lyrics-classifier.html"
+    ]
+  }
+]

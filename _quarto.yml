@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "lukanguyen"
+  sidebar:
+    style: "docked"
+    contents: auto
+  navbar:
+    logo: "profile.jpg"
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - articles.qmd
+      - projects.qmd
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/lukanguyen277
+      - icon: twitter
+        href: https://twitter.com/nqhoang2077
+      - icon: linkedin
+        href: https://www.linkedin.com/in/luka-nguyen-b9586a236/
+      - icon: facebook
+        href: https://www.facebook.com/lukanguyentech/
+format:
+  html:
+    theme: materia
+    css: styles.scss
+
+
+

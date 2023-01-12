@@ -24,6 +24,8 @@ website:
         href: https://www.linkedin.com/in/luka-nguyen-b9586a236/
       - icon: facebook
         href: https://www.facebook.com/lukanguyentech/
+      - icon: medium
+        href: https://medium.com/@lukanguyen
 format:
   html:
     theme: materia

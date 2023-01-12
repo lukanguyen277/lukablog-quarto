@@ -4,16 +4,22 @@ image: profile.jpg
 about:
   template: jolla
   links:
+    - icon: github
+      text: Github
+      href: https://github.com/lukanguyen277
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/nqhoang2077
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/luka-nguyen-b9586a236/
-    - icon: github
-      text: Github
-      href: https://github.com
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/lukanguyentech/
+    - icon: medium
+      text: Medium
+      href: https://medium.com/@lukanguyen
 
 ---
 
-Hello!
+I'm passionate about Artificial Intelligence and Music.

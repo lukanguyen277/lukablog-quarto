@@ -1,32 +1,38 @@
 [
   {
-    "listing": "/articles/steel-nylon-classifier.html",
+    "listing": "/projects/steel-nylon-classifier.html",
     "items": [
-      "/articles/vietnamese-lyrics-classifier.html"
+      "/projects/vietnamese-lyrics-classifier.html"
     ]
   },
   {
-    "listing": "/articles/vietnamese-lyrics-classifier.html",
+    "listing": "/projects/vietnamese-lyrics-classifier.html",
     "items": [
-      "/articles/steel-nylon-classifier.html"
+      "/projects/steel-nylon-classifier.html"
     ]
+  },
+  {
+    "listing": "/articles/translate-batch-normalization-in-3-levels-of-understanding.html",
+    "items": []
   },
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/steel-nylon-classifier.html",
+      "/projects/vietnamese-lyrics-classifier.html"
+    ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/articles/steel-nylon-classifier.html",
-      "/articles/vietnamese-lyrics-classifier.html"
+      "/projects/steel-nylon-classifier.html",
+      "/projects/vietnamese-lyrics-classifier.html"
     ]
   },
   {
     "listing": "/articles.html",
     "items": [
-      "/articles/steel-nylon-classifier.html",
-      "/articles/vietnamese-lyrics-classifier.html"
+      "/articles/translate-batch-normalization-in-3-levels-of-understanding.html"
     ]
   }
 ]

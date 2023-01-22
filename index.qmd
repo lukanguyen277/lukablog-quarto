@@ -1,7 +1,7 @@
 ---
-title: "Luka Nguyen's Blog"
+title: "Luka Blog"
 listing:
-  contents: articles
+  contents: projects
   sort: "date desc"
   type: default
   categories: true

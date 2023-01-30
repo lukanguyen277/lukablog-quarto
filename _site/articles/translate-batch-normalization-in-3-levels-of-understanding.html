@@ -377,6 +377,18 @@ Multilayer Perceptron (MLP) có batch normalization (BN) | Nguồn : author - De
 <p align="center">
 Bước đầu của Batch Norm. Ví dụ một hidden layer với 3 neurons, kích cỡ batch là b. Mỗi neuron sau đó đều tuân theo phân phối chuẩn | Nguồn : author - Design : <a href="https://www.instagram.com/louhacquetdelepine/">Lou HD</a>
 </p>
+<p align="center">
+<img src="batchnorm/327412395_1405599943603212_2401695818725314978_n.png" width="600px">
+</p>
+<p align="center">
+Batch Norm trên dữ liệu 1 chiều. Mean và variance được trính trên toàn bộ các features của batch | Nguồn: <a href="https://www.facebook.com/aivietnam.edu.vn">AI Vietnam</a>
+</p>
+<p align="center">
+<img src="batchnorm/Screenshot 2023-01-25 at 9.56.45 PM.png" width="600px">
+</p>
+<p align="center">
+Batch Norm trên dữ liệu 2 chiều. Mean và variance được trính theo từng channel của input (tương ứng với số filters của lớp Convolution ngay trước đó) | Nguồn: <a href="https://www.facebook.com/aivietnam.edu.vn">AI Vietnam</a>
+</p>
 <p>Ở bước cuối, BN tính output Ẑ(i) bằng cách áp dụng một biến đổi tuyển tính (linear transformation) với hai tham số huấn luyện là 𝛾 và 𝛽 (4). Bước này cho phép mô hình chọn được phân phối tối ưu cho từng lớp ẩn khi thay đổi hai tham số:</p>
 <ul>
 <li><p>𝛾 giúp điều chỉnh phương sai phân phối</p></li>
@@ -848,7 +860,7 @@ Khám phá cảnh quan tối ưu hoá (Optimization landscape exploration) theo 
 <section id="hơn-nữa" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Hơn nữa</h1>
 <ul>
-<li><p>Bài giảng xuất sắc của của Ian Fellow về Batch Normalization: <a href="https://www.youtube.com/watch?v=Xogn6veSyxA">Link</a></p></li>
+<li><p>Bài giảng xuất sắc của Ian Fellow về Batch Normalization: <a href="https://www.youtube.com/watch?v=Xogn6veSyxA">Link</a></p></li>
 <li><p>Bài thuyết trình của bài báo [2] bởi một trong những tác gỉa. Khán giả có nhiều câu hỏi sắc bén về BN: <a href="https://www.microsoft.com/en-us/research/video/how-does-batch-normalization-help-optimization/">Link</a></p></li>
 <li><p>Nên để BN sau hay trước hàm kích hoạt? -&gt; <a href="https://stackoverflow.com/questions/39691902/ordering-of-batch-normalization-and-dropout">Stackoverflow</a></p></li>
 <li><p>Nên để BN sau hay trước hàm kích hoạt? -&gt; <a href="https://www.reddit.com/r/MachineLearning/comments/67gonq/d_batch_normalization_before_or_after_relu/dgqaksn/">Reddit</a></p></li>
